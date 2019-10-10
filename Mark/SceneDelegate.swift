@@ -9,12 +9,21 @@
 import UIKit
 import SwiftUI
 import SwiftUIFlux
+import flux
+import Models
+import Services
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
     let store = Store<AppState>(reducer: appReducer,
-                                state: AppState(homeState: HomeState(text: "")))
+                                middleware: [loggingMiddleware, lastCheckinMiddleware, TokenMiddleware().storeTokenMiddleware],
+                                state: AppState(homeState: HomeState(venues: []),
+                                                locationState: LocationState(longitude: "0", latidude: "0"),
+                                                loginState: LoginState(accessCode: nil),
+                                                checkInState: CheckinState(checkedInVenue: nil)))
+
+    let updateAction = LocationAction.UpdateLocation(locationService: .shared)
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         if let windowScene = scene as? UIWindowScene {
@@ -24,9 +33,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     ContentView()
             }
 
-            window.rootViewController = UIHostingController(rootView: view)
+            let hostingController = UIHostingController(rootView: view)
+
+            window.rootViewController = hostingController
             self.window = window
+
             window.makeKeyAndVisible()
+
+            store.dispatch(action: LoginAction.GetAccessCodeFromKeychain(loginServie: LoginService()))
+            store.dispatch(action: updateAction)
         }
     }
 
@@ -57,4 +72,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
+
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        for urlContext in URLContexts {
+            store.dispatch(action: LoginAction.ExtractAccessCode(url: urlContext.url,
+                                                                 loginService: LoginService()))
+        }
+    }
 }
+
+
+#if DEBUG
+let venues = [
+    Venue(name: "Home", id: "1", location: Venue.Location(address: "Berlin")),
+    Venue(name: "Work", id: "2", location: Venue.Location(address: "Berlin")),
+    Venue(name: "Fun", id: "3", location: Venue.Location(address: "Berlin"))
+]
+let sampleStore = Store<AppState>(reducer: appReducer,
+                                  state: AppState(homeState: HomeState(venues: venues),
+                                                  locationState: LocationState(longitude: "0", latidude: "0"),
+                                                  loginState: LoginState(accessCode: nil),
+                                                  checkInState: CheckinState(checkedInVenue: nil)))
+#endif
