@@ -6,11 +6,11 @@
 import Foundation
 #if os(watchOS)
 import Constants_Watch
-import Models_Watch
 #else
 import Constants
-import Models
 #endif
+
+import Models
 
 public final class FoursquareAPIService {
     private let baseURL = URL(string: "https://api.foursquare.com/v2/")!
