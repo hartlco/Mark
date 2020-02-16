@@ -10,6 +10,7 @@ import Foundation
 import MapKit
 import Combine
 
+@available(iOS 13.0, watchOS 6.0, *)
 public final class LocationUpdateService: NSObject {
     public static let shared = LocationUpdateService()
 
@@ -26,6 +27,7 @@ public final class LocationUpdateService: NSObject {
 
 }
 
+@available(iOS 13.0, watchOS 6.0, *)
 extension LocationUpdateService: CLLocationManagerDelegate {
     public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if status == .notDetermined {

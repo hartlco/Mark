@@ -11,7 +11,7 @@ import Foundation
 import SwiftUI
 import SwiftUIFlux
 import flux_Watch
-import Services_Watch
+import Services
 
 let store = Store<AppState>(reducer: appReducer,
                             middleware: [loggingMiddleware, lastCheckinMiddleware],

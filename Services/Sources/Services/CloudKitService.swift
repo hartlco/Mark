@@ -9,6 +9,7 @@
 import Foundation
 import CloudKit
 
+@available(iOS 13.0, watchOS 6.0, *)
 final public  class CloudKitService {
     public init() { }
 

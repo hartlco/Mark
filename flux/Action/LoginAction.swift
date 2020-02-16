@@ -10,11 +10,7 @@ import SwiftUIFlux
 import KeychainAccess
 import Constants
 import Foundation
-#if os(watchOS)
-import Services_Watch
-#else
 import Services
-#endif
 
 public struct LoginAction {
     public struct ShowLogin: AsyncAction {

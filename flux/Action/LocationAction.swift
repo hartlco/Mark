@@ -4,11 +4,7 @@
 //
 
 import SwiftUIFlux
-#if os(watchOS)
-import Services_Watch
-#else
 import Services
-#endif
 import Combine
 
 public struct LocationAction {

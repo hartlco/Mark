@@ -8,11 +8,7 @@
 
 import SwiftUIFlux
 import Models
-#if os(watchOS)
-import Services_Watch
-#else
 import Services
-#endif
 
 public struct CheckInAction {
     public struct CheckIn: AsyncAction {

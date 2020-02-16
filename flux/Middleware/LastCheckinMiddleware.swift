@@ -8,11 +8,7 @@
 
 import Foundation
 import SwiftUIFlux
-#if os(watchOS)
-import Services_Watch
-#else
 import Services
-#endif
 
 public let loggingMiddleware: Middleware<AppState> = { dispatch, getState in
     return { next in

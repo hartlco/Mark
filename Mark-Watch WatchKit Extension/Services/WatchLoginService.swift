@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Services_Watch
+import Services
 
 struct WatchLoginService: LoginServiceProtocol {
     func startAuthorization() {
