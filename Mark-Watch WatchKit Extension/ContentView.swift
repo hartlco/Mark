@@ -10,7 +10,7 @@ import SwiftUI
 import Constants
 import Models
 import Services
-import flux_Watch
+import flux
 import SwiftUIFlux
 
 struct ContentView: ConnectedView {

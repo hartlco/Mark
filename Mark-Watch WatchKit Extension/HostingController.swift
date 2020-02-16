@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 import SwiftUI
 import SwiftUIFlux
-import flux_Watch
+import flux
 import Services
 
 let store = Store<AppState>(reducer: appReducer,

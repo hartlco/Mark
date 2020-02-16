@@ -12,25 +12,6 @@
 		5B59A36723563DB8003B436D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B59A36623563DB8003B436D /* CloudKit.framework */; };
 		5B5A67EA2357883C00930902 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5A67E92357883C00930902 /* SettingsView.swift */; };
 		5B7631142350EF8E00DDD63D /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7631132350EF8E00DDD63D /* LoginService.swift */; };
-		5B76311E2350F13500DDD63D /* flux.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B76311C2350F13500DDD63D /* flux.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B7631212350F13500DDD63D /* flux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B76311A2350F13500DDD63D /* flux.framework */; };
-		5B7631222350F13500DDD63D /* flux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B76311A2350F13500DDD63D /* flux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B7631292350F14000DDD63D /* SwiftUIFlux in Frameworks */ = {isa = PBXBuildFile; productRef = 5B7631282350F14000DDD63D /* SwiftUIFlux */; };
-		5B76312B2350F14400DDD63D /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 5B76312A2350F14400DDD63D /* KeychainAccess */; };
-		5B76312C2350F16700DDD63D /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011AA2343D7B0008A7053 /* AppReducer.swift */; };
-		5B76312D2350F16700DDD63D /* HomeReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011B72343E2E5008A7053 /* HomeReducer.swift */; };
-		5B76312E2350F16700DDD63D /* LocationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48A054234D11C700C24949 /* LocationReducer.swift */; };
-		5B76312F2350F16700DDD63D /* LoginReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB2A234E5AE9005EB226 /* LoginReducer.swift */; };
-		5B7631302350F16700DDD63D /* CheckInReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB34234E6359005EB226 /* CheckInReducer.swift */; };
-		5B7631312350F17D00DDD63D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011A72343D780008A7053 /* AppState.swift */; };
-		5B7631322350F17D00DDD63D /* HomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011B52343E2C5008A7053 /* HomeState.swift */; };
-		5B7631332350F17D00DDD63D /* LocationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48A052234D117D00C24949 /* LocationState.swift */; };
-		5B7631342350F17D00DDD63D /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB28234E5A27005EB226 /* LoginState.swift */; };
-		5B7631352350F17D00DDD63D /* CheckinState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB30234E620D005EB226 /* CheckinState.swift */; };
-		5B7631362350F19200DDD63D /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011BA2343E39C008A7053 /* HomeAction.swift */; };
-		5B7631372350F19200DDD63D /* LocationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48A056234D16D400C24949 /* LocationAction.swift */; };
-		5B7631382350F19200DDD63D /* LoginAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB242FE234DA00E00B77889 /* LoginAction.swift */; };
-		5B7631392350F19200DDD63D /* CheckInAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB32234E6238005EB226 /* CheckInAction.swift */; };
 		5BA77FE22355836B00DA76FC /* Mark-Watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5BA77FE12355836B00DA76FC /* Mark-Watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5BA77FE82355836B00DA76FC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA77FE62355836B00DA76FC /* Interface.storyboard */; };
 		5BA77FEA2355836C00DA76FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA77FE92355836C00DA76FC /* Assets.xcassets */; };
@@ -42,26 +23,6 @@
 		5BA77FFE2355836C00DA76FC /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA77FFD2355836C00DA76FC /* NotificationView.swift */; };
 		5BA780002355836C00DA76FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA77FFF2355836C00DA76FC /* Assets.xcassets */; };
 		5BA780032355836C00DA76FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA780022355836C00DA76FC /* Preview Assets.xcassets */; };
-		5BA7806F2355862600DA76FC /* flux_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA780682355862600DA76FC /* flux_Watch.framework */; };
-		5BA780702355862600DA76FC /* flux_Watch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA780682355862600DA76FC /* flux_Watch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5BA780752355863E00DA76FC /* SwiftUIFlux in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA780742355863E00DA76FC /* SwiftUIFlux */; };
-		5BA780772355863E00DA76FC /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA780762355863E00DA76FC /* KeychainAccess */; };
-		5BA780852355866E00DA76FC /* LastCheckinMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD145832351AFD200ED2616 /* LastCheckinMiddleware.swift */; };
-		5BA780862355866E00DA76FC /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011BA2343E39C008A7053 /* HomeAction.swift */; };
-		5BA780872355866E00DA76FC /* LocationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48A056234D16D400C24949 /* LocationAction.swift */; };
-		5BA780882355866E00DA76FC /* LoginAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB242FE234DA00E00B77889 /* LoginAction.swift */; };
-		5BA780892355866E00DA76FC /* CheckInAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB32234E6238005EB226 /* CheckInAction.swift */; };
-		5BA7808A2355866E00DA76FC /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011A72343D780008A7053 /* AppState.swift */; };
-		5BA7808B2355866E00DA76FC /* HomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011B52343E2C5008A7053 /* HomeState.swift */; };
-		5BA7808C2355866E00DA76FC /* LocationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48A052234D117D00C24949 /* LocationState.swift */; };
-		5BA7808D2355866E00DA76FC /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB28234E5A27005EB226 /* LoginState.swift */; };
-		5BA7808E2355866E00DA76FC /* CheckinState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB30234E620D005EB226 /* CheckinState.swift */; };
-		5BA7808F2355866E00DA76FC /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011AA2343D7B0008A7053 /* AppReducer.swift */; };
-		5BA780902355866E00DA76FC /* HomeReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011B72343E2E5008A7053 /* HomeReducer.swift */; };
-		5BA780912355866E00DA76FC /* LocationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48A054234D11C700C24949 /* LocationReducer.swift */; };
-		5BA780922355866E00DA76FC /* LoginReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB2A234E5AE9005EB226 /* LoginReducer.swift */; };
-		5BA780932355866E00DA76FC /* CheckInReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB34234E6359005EB226 /* CheckInReducer.swift */; };
-		5BD145842351AFD200ED2616 /* LastCheckinMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD145832351AFD200ED2616 /* LastCheckinMiddleware.swift */; };
 		5BF011822343D6A5008A7053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011812343D6A5008A7053 /* AppDelegate.swift */; };
 		5BF011842343D6A5008A7053 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011832343D6A5008A7053 /* SceneDelegate.swift */; };
 		5BF011862343D6A5008A7053 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011852343D6A5008A7053 /* ContentView.swift */; };
@@ -71,18 +32,11 @@
 		5BF011992343D6A7008A7053 /* MarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011982343D6A7008A7053 /* MarkTests.swift */; };
 		C52770D223F985E000284363 /* FSOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C52770D123F985E000284363 /* FSOAuth.m */; };
 		C52770D523F9870A00284363 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = C52770D423F9870A00284363 /* Models */; };
-		C53085CD23F98C0400CB4756 /* Services in Frameworks */ = {isa = PBXBuildFile; productRef = C53085CC23F98C0400CB4756 /* Services */; };
-		C53085CF23F98C0A00CB4756 /* Services in Frameworks */ = {isa = PBXBuildFile; productRef = C53085CE23F98C0A00CB4756 /* Services */; };
+		C53085D223F991AB00CB4756 /* flux in Frameworks */ = {isa = PBXBuildFile; productRef = C53085D123F991AB00CB4756 /* flux */; };
+		C54201FC23F993D400A7E805 /* flux in Frameworks */ = {isa = PBXBuildFile; productRef = C54201FB23F993D400A7E805 /* flux */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B76311F2350F13500DDD63D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5BF011762343D6A5008A7053 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B7631192350F13500DDD63D;
-			remoteInfo = flux;
-		};
 		5BA77FE32355836B00DA76FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5BF011762343D6A5008A7053 /* Project object */;
@@ -97,13 +51,6 @@
 			remoteGlobalIDString = 5BA77FEF2355836C00DA76FC;
 			remoteInfo = "Mark-Watch WatchKit Extension";
 		};
-		5BA7806D2355862600DA76FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5BF011762343D6A5008A7053 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BA780672355862600DA76FC;
-			remoteInfo = "flux-Watch";
-		};
 		5BF011952343D6A7008A7053 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5BF011762343D6A5008A7053 /* Project object */;
@@ -115,17 +62,6 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5B7631262350F13500DDD63D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				5B7631222350F13500DDD63D /* flux.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B7631512350F21C00DDD63D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -163,17 +99,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5BA780702355862600DA76FC /* flux_Watch.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BA780842355863E00DA76FC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,25 +106,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5B48A052234D117D00C24949 /* LocationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationState.swift; sourceTree = "<group>"; };
-		5B48A054234D11C700C24949 /* LocationReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationReducer.swift; sourceTree = "<group>"; };
-		5B48A056234D16D400C24949 /* LocationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAction.swift; sourceTree = "<group>"; };
 		5B590A842351984100DA0646 /* Mark.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mark.entitlements; sourceTree = "<group>"; };
 		5B59A35F23562E5F003B436D /* WatchLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLoginService.swift; sourceTree = "<group>"; };
 		5B59A36123562EBD003B436D /* Mark-Watch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mark-Watch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		5B59A36223563312003B436D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		5B59A36623563DB8003B436D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.1.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B5A67E92357883C00930902 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		5B69AB28234E5A27005EB226 /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
-		5B69AB2A234E5AE9005EB226 /* LoginReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReducer.swift; sourceTree = "<group>"; };
 		5B69AB2F234E60ED005EB226 /* home.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = home.gpx; path = ../../Desktop/home.gpx; sourceTree = "<group>"; };
-		5B69AB30234E620D005EB226 /* CheckinState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinState.swift; sourceTree = "<group>"; };
-		5B69AB32234E6238005EB226 /* CheckInAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInAction.swift; sourceTree = "<group>"; };
-		5B69AB34234E6359005EB226 /* CheckInReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInReducer.swift; sourceTree = "<group>"; };
 		5B7631132350EF8E00DDD63D /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
-		5B76311A2350F13500DDD63D /* flux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = flux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B76311C2350F13500DDD63D /* flux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flux.h; sourceTree = "<group>"; };
-		5B76311D2350F13500DDD63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA77FDE2355836B00DA76FC /* Mark-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mark-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA77FE12355836B00DA76FC /* Mark-Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mark-Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA77FE72355836B00DA76FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -215,10 +129,7 @@
 		5BA780022355836C00DA76FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BA780042355836C00DA76FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA780052355836C00DA76FC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		5BA780682355862600DA76FC /* flux_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = flux_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB242FA234D9DB100B77889 /* Mark-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mark-Bridging-Header.h"; sourceTree = "<group>"; };
-		5BB242FE234DA00E00B77889 /* LoginAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAction.swift; sourceTree = "<group>"; };
-		5BD145832351AFD200ED2616 /* LastCheckinMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCheckinMiddleware.swift; sourceTree = "<group>"; };
 		5BF0117E2343D6A5008A7053 /* Mark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF011812343D6A5008A7053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF011832343D6A5008A7053 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -230,45 +141,21 @@
 		5BF011942343D6A7008A7053 /* MarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF011982343D6A7008A7053 /* MarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkTests.swift; sourceTree = "<group>"; };
 		5BF0119A2343D6A7008A7053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BF011A72343D780008A7053 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		5BF011AA2343D7B0008A7053 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
-		5BF011B52343E2C5008A7053 /* HomeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeState.swift; sourceTree = "<group>"; };
-		5BF011B72343E2E5008A7053 /* HomeReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReducer.swift; sourceTree = "<group>"; };
-		5BF011BA2343E39C008A7053 /* HomeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
 		C52770D023F985E000284363 /* FSOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSOAuth.h; sourceTree = "<group>"; };
 		C52770D123F985E000284363 /* FSOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSOAuth.m; sourceTree = "<group>"; };
 		C52770D323F986A300284363 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
 		C52770DA23F9879E00284363 /* Constants */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Constants; sourceTree = "<group>"; };
 		C53085CB23F98BB900CB4756 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
+		C53085D023F98F8700CB4756 /* flux */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flux; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B7631172350F13500DDD63D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C53085CD23F98C0400CB4756 /* Services in Frameworks */,
-				5B76312B2350F14400DDD63D /* KeychainAccess in Frameworks */,
-				5B7631292350F14000DDD63D /* SwiftUIFlux in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BA77FED2355836C00DA76FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B59A36723563DB8003B436D /* CloudKit.framework in Frameworks */,
-				5BA7806F2355862600DA76FC /* flux_Watch.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BA780652355862600DA76FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C53085CF23F98C0A00CB4756 /* Services in Frameworks */,
-				5BA780772355863E00DA76FC /* KeychainAccess in Frameworks */,
-				5BA780752355863E00DA76FC /* SwiftUIFlux in Frameworks */,
+				C54201FC23F993D400A7E805 /* flux in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +163,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53085D223F991AB00CB4756 /* flux in Frameworks */,
 				C52770D523F9870A00284363 /* Models in Frameworks */,
 				5B59A36323563312003B436D /* CloudKit.framework in Frameworks */,
-				5B7631212350F13500DDD63D /* flux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,19 +193,6 @@
 				5B59A35F23562E5F003B436D /* WatchLoginService.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		5B76311B2350F13500DDD63D /* flux */ = {
-			isa = PBXGroup;
-			children = (
-				5BD145822351AFAC00ED2616 /* Middleware */,
-				5BF011B92343E38D008A7053 /* Action */,
-				5BF011A62343D773008A7053 /* State */,
-				5BF011A92343D7A1008A7053 /* Reducer */,
-				5B76311C2350F13500DDD63D /* flux.h */,
-				5B76311D2350F13500DDD63D /* Info.plist */,
-			);
-			path = flux;
 			sourceTree = "<group>";
 		};
 		5B7631272350F14000DDD63D /* Frameworks */ = {
@@ -376,17 +250,10 @@
 			path = Extern;
 			sourceTree = "<group>";
 		};
-		5BD145822351AFAC00ED2616 /* Middleware */ = {
-			isa = PBXGroup;
-			children = (
-				5BD145832351AFD200ED2616 /* LastCheckinMiddleware.swift */,
-			);
-			path = Middleware;
-			sourceTree = "<group>";
-		};
 		5BF011752343D6A5008A7053 = {
 			isa = PBXGroup;
 			children = (
+				C53085D023F98F8700CB4756 /* flux */,
 				C53085CB23F98BB900CB4756 /* Services */,
 				C52770DA23F9879E00284363 /* Constants */,
 				C52770D323F986A300284363 /* Models */,
@@ -394,7 +261,6 @@
 				5BB242F9234D9D9B00B77889 /* Extern */,
 				5BF011802343D6A5008A7053 /* Mark */,
 				5BF011972343D6A7008A7053 /* MarkTests */,
-				5B76311B2350F13500DDD63D /* flux */,
 				5BA77FE52355836B00DA76FC /* Mark-Watch WatchKit App */,
 				5BA77FF42355836C00DA76FC /* Mark-Watch WatchKit Extension */,
 				5BF0117F2343D6A5008A7053 /* Products */,
@@ -407,11 +273,9 @@
 			children = (
 				5BF0117E2343D6A5008A7053 /* Mark.app */,
 				5BF011942343D6A7008A7053 /* MarkTests.xctest */,
-				5B76311A2350F13500DDD63D /* flux.framework */,
 				5BA77FDE2355836B00DA76FC /* Mark-Watch.app */,
 				5BA77FE12355836B00DA76FC /* Mark-Watch WatchKit App.app */,
 				5BA77FF02355836C00DA76FC /* Mark-Watch WatchKit Extension.appex */,
-				5BA780682355862600DA76FC /* flux_Watch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -450,86 +314,9 @@
 			path = MarkTests;
 			sourceTree = "<group>";
 		};
-		5BF011A62343D773008A7053 /* State */ = {
-			isa = PBXGroup;
-			children = (
-				5BF011A72343D780008A7053 /* AppState.swift */,
-				5BF011B52343E2C5008A7053 /* HomeState.swift */,
-				5B48A052234D117D00C24949 /* LocationState.swift */,
-				5B69AB28234E5A27005EB226 /* LoginState.swift */,
-				5B69AB30234E620D005EB226 /* CheckinState.swift */,
-			);
-			path = State;
-			sourceTree = "<group>";
-		};
-		5BF011A92343D7A1008A7053 /* Reducer */ = {
-			isa = PBXGroup;
-			children = (
-				5BF011AA2343D7B0008A7053 /* AppReducer.swift */,
-				5BF011B72343E2E5008A7053 /* HomeReducer.swift */,
-				5B48A054234D11C700C24949 /* LocationReducer.swift */,
-				5B69AB2A234E5AE9005EB226 /* LoginReducer.swift */,
-				5B69AB34234E6359005EB226 /* CheckInReducer.swift */,
-			);
-			path = Reducer;
-			sourceTree = "<group>";
-		};
-		5BF011B92343E38D008A7053 /* Action */ = {
-			isa = PBXGroup;
-			children = (
-				5BF011BA2343E39C008A7053 /* HomeAction.swift */,
-				5B48A056234D16D400C24949 /* LocationAction.swift */,
-				5BB242FE234DA00E00B77889 /* LoginAction.swift */,
-				5B69AB32234E6238005EB226 /* CheckInAction.swift */,
-			);
-			path = Action;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		5B7631152350F13500DDD63D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B76311E2350F13500DDD63D /* flux.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BA780632355862600DA76FC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		5B7631192350F13500DDD63D /* flux */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B7631232350F13500DDD63D /* Build configuration list for PBXNativeTarget "flux" */;
-			buildPhases = (
-				5B7631152350F13500DDD63D /* Headers */,
-				5B7631162350F13500DDD63D /* Sources */,
-				5B7631172350F13500DDD63D /* Frameworks */,
-				5B7631182350F13500DDD63D /* Resources */,
-				5B7631512350F21C00DDD63D /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = flux;
-			packageProductDependencies = (
-				5B7631282350F14000DDD63D /* SwiftUIFlux */,
-				5B76312A2350F14400DDD63D /* KeychainAccess */,
-				C53085CC23F98C0400CB4756 /* Services */,
-			);
-			productName = flux;
-			productReference = 5B76311A2350F13500DDD63D /* flux.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5BA77FDD2355836B00DA76FC /* Mark-Watch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA780102355836C00DA76FC /* Build configuration list for PBXNativeTarget "Mark-Watch" */;
@@ -576,36 +363,14 @@
 			buildRules = (
 			);
 			dependencies = (
-				5BA7806E2355862600DA76FC /* PBXTargetDependency */,
 			);
 			name = "Mark-Watch WatchKit Extension";
+			packageProductDependencies = (
+				C54201FB23F993D400A7E805 /* flux */,
+			);
 			productName = "Mark-Watch WatchKit Extension";
 			productReference = 5BA77FF02355836C00DA76FC /* Mark-Watch WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
-		};
-		5BA780672355862600DA76FC /* flux-Watch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BA780712355862600DA76FC /* Build configuration list for PBXNativeTarget "flux-Watch" */;
-			buildPhases = (
-				5BA780632355862600DA76FC /* Headers */,
-				5BA780642355862600DA76FC /* Sources */,
-				5BA780652355862600DA76FC /* Frameworks */,
-				5BA780662355862600DA76FC /* Resources */,
-				5BA780842355863E00DA76FC /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "flux-Watch";
-			packageProductDependencies = (
-				5BA780742355863E00DA76FC /* SwiftUIFlux */,
-				5BA780762355863E00DA76FC /* KeychainAccess */,
-				C53085CE23F98C0A00CB4756 /* Services */,
-			);
-			productName = "flux-Watch";
-			productReference = 5BA780682355862600DA76FC /* flux_Watch.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		5BF0117D2343D6A5008A7053 /* Mark */ = {
 			isa = PBXNativeTarget;
@@ -619,11 +384,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				5B7631202350F13500DDD63D /* PBXTargetDependency */,
 			);
 			name = Mark;
 			packageProductDependencies = (
 				C52770D423F9870A00284363 /* Models */,
+				C53085D123F991AB00CB4756 /* flux */,
 			);
 			productName = Mark;
 			productReference = 5BF0117E2343D6A5008A7053 /* Mark.app */;
@@ -657,9 +422,6 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Martin Hartl";
 				TargetAttributes = {
-					5B7631192350F13500DDD63D = {
-						CreatedOnToolsVersion = 11.1;
-					};
 					5BA77FDD2355836B00DA76FC = {
 						CreatedOnToolsVersion = 11.2;
 					};
@@ -667,9 +429,6 @@
 						CreatedOnToolsVersion = 11.2;
 					};
 					5BA77FEF2355836C00DA76FC = {
-						CreatedOnToolsVersion = 11.2;
-					};
-					5BA780672355862600DA76FC = {
 						CreatedOnToolsVersion = 11.2;
 					};
 					5BF0117D2343D6A5008A7053 = {
@@ -692,8 +451,6 @@
 			);
 			mainGroup = 5BF011752343D6A5008A7053;
 			packageReferences = (
-				5BF011B22343DE21008A7053 /* XCRemoteSwiftPackageReference "SwiftUIFlux" */,
-				5B69AB2C234E5E52005EB226 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = 5BF0117F2343D6A5008A7053 /* Products */;
 			projectDirPath = "";
@@ -701,8 +458,6 @@
 			targets = (
 				5BF0117D2343D6A5008A7053 /* Mark */,
 				5BF011932343D6A7008A7053 /* MarkTests */,
-				5B7631192350F13500DDD63D /* flux */,
-				5BA780672355862600DA76FC /* flux-Watch */,
 				5BA77FDD2355836B00DA76FC /* Mark-Watch */,
 				5BA77FE02355836B00DA76FC /* Mark-Watch WatchKit App */,
 				5BA77FEF2355836C00DA76FC /* Mark-Watch WatchKit Extension */,
@@ -711,13 +466,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B7631182350F13500DDD63D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BA77FDC2355836B00DA76FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -743,13 +491,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BA780662355862600DA76FC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BF0117C2343D6A5008A7053 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -770,28 +511,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B7631162350F13500DDD63D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B7631332350F17D00DDD63D /* LocationState.swift in Sources */,
-				5B7631392350F19200DDD63D /* CheckInAction.swift in Sources */,
-				5B7631382350F19200DDD63D /* LoginAction.swift in Sources */,
-				5B7631342350F17D00DDD63D /* LoginState.swift in Sources */,
-				5B7631322350F17D00DDD63D /* HomeState.swift in Sources */,
-				5B7631302350F16700DDD63D /* CheckInReducer.swift in Sources */,
-				5BD145842351AFD200ED2616 /* LastCheckinMiddleware.swift in Sources */,
-				5B76312F2350F16700DDD63D /* LoginReducer.swift in Sources */,
-				5B7631362350F19200DDD63D /* HomeAction.swift in Sources */,
-				5B7631372350F19200DDD63D /* LocationAction.swift in Sources */,
-				5B76312C2350F16700DDD63D /* AppReducer.swift in Sources */,
-				5B7631312350F17D00DDD63D /* AppState.swift in Sources */,
-				5B76312E2350F16700DDD63D /* LocationReducer.swift in Sources */,
-				5B76312D2350F16700DDD63D /* HomeReducer.swift in Sources */,
-				5B7631352350F17D00DDD63D /* CheckinState.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BA77FEC2355836C00DA76FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -802,28 +521,6 @@
 				5B59A36023562E5F003B436D /* WatchLoginService.swift in Sources */,
 				5BA77FFA2355836C00DA76FC /* ExtensionDelegate.swift in Sources */,
 				5BA77FFE2355836C00DA76FC /* NotificationView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BA780642355862600DA76FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BA780932355866E00DA76FC /* CheckInReducer.swift in Sources */,
-				5BA7808C2355866E00DA76FC /* LocationState.swift in Sources */,
-				5BA7808F2355866E00DA76FC /* AppReducer.swift in Sources */,
-				5BA780922355866E00DA76FC /* LoginReducer.swift in Sources */,
-				5BA7808D2355866E00DA76FC /* LoginState.swift in Sources */,
-				5BA7808B2355866E00DA76FC /* HomeState.swift in Sources */,
-				5BA780892355866E00DA76FC /* CheckInAction.swift in Sources */,
-				5BA780872355866E00DA76FC /* LocationAction.swift in Sources */,
-				5BA780912355866E00DA76FC /* LocationReducer.swift in Sources */,
-				5BA780862355866E00DA76FC /* HomeAction.swift in Sources */,
-				5BA7808A2355866E00DA76FC /* AppState.swift in Sources */,
-				5BA780852355866E00DA76FC /* LastCheckinMiddleware.swift in Sources */,
-				5BA780882355866E00DA76FC /* LoginAction.swift in Sources */,
-				5BA7808E2355866E00DA76FC /* CheckinState.swift in Sources */,
-				5BA780902355866E00DA76FC /* HomeReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,11 +548,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B7631202350F13500DDD63D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5B7631192350F13500DDD63D /* flux */;
-			targetProxy = 5B76311F2350F13500DDD63D /* PBXContainerItemProxy */;
-		};
 		5BA77FE42355836B00DA76FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5BA77FE02355836B00DA76FC /* Mark-Watch WatchKit App */;
@@ -865,11 +557,6 @@
 			isa = PBXTargetDependency;
 			target = 5BA77FEF2355836C00DA76FC /* Mark-Watch WatchKit Extension */;
 			targetProxy = 5BA77FF22355836C00DA76FC /* PBXContainerItemProxy */;
-		};
-		5BA7806E2355862600DA76FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5BA780672355862600DA76FC /* flux-Watch */;
-			targetProxy = 5BA7806D2355862600DA76FC /* PBXContainerItemProxy */;
 		};
 		5BF011962343D6A7008A7053 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -898,62 +585,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5B7631242350F13500DDD63D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9E8SXF3Y36;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = flux/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.hartl.flux;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5B7631252350F13500DDD63D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9E8SXF3Y36;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = flux/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.hartl.flux;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5BA780062355836C00DA76FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1070,66 +701,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Release;
-		};
-		5BA780722355862600DA76FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9E8SXF3Y36;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = flux/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.hartl.flux-Watch";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Debug;
-		};
-		5BA780732355862600DA76FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9E8SXF3Y36;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = flux/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.hartl.flux-Watch";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
@@ -1251,7 +822,6 @@
 		5BF0119E2343D6A7008A7053 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Mark/Mark.entitlements;
@@ -1278,7 +848,6 @@
 		5BF0119F2343D6A7008A7053 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Mark/Mark.entitlements;
@@ -1348,15 +917,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B7631232350F13500DDD63D /* Build configuration list for PBXNativeTarget "flux" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5B7631242350F13500DDD63D /* Debug */,
-				5B7631252350F13500DDD63D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5BA7800E2355836C00DA76FC /* Build configuration list for PBXNativeTarget "Mark-Watch WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1380,15 +940,6 @@
 			buildConfigurations = (
 				5BA780062355836C00DA76FC /* Debug */,
 				5BA780072355836C00DA76FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BA780712355862600DA76FC /* Build configuration list for PBXNativeTarget "flux-Watch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5BA780722355862600DA76FC /* Debug */,
-				5BA780732355862600DA76FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1422,57 +973,18 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		5B69AB2C234E5E52005EB226 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.2.0;
-			};
-		};
-		5BF011B22343DE21008A7053 /* XCRemoteSwiftPackageReference "SwiftUIFlux" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Dimillian/SwiftUIFlux";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.4.5;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		5B7631282350F14000DDD63D /* SwiftUIFlux */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5BF011B22343DE21008A7053 /* XCRemoteSwiftPackageReference "SwiftUIFlux" */;
-			productName = SwiftUIFlux;
-		};
-		5B76312A2350F14400DDD63D /* KeychainAccess */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5B69AB2C234E5E52005EB226 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
-			productName = KeychainAccess;
-		};
-		5BA780742355863E00DA76FC /* SwiftUIFlux */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5BF011B22343DE21008A7053 /* XCRemoteSwiftPackageReference "SwiftUIFlux" */;
-			productName = SwiftUIFlux;
-		};
-		5BA780762355863E00DA76FC /* KeychainAccess */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5B69AB2C234E5E52005EB226 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
-			productName = KeychainAccess;
-		};
 		C52770D423F9870A00284363 /* Models */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Models;
 		};
-		C53085CC23F98C0400CB4756 /* Services */ = {
+		C53085D123F991AB00CB4756 /* flux */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Services;
+			productName = flux;
 		};
-		C53085CE23F98C0A00CB4756 /* Services */ = {
+		C54201FB23F993D400A7E805 /* flux */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Services;
+			productName = flux;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
