@@ -4,12 +4,7 @@
 //
 
 import Foundation
-#if os(watchOS)
-import Constants_Watch
-#else
 import Constants
-#endif
-
 import Models
 
 public final class FoursquareAPIService {

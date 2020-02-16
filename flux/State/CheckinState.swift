@@ -7,11 +7,7 @@
 //
 
 import SwiftUIFlux
-#if os(watchOS)
-import Models_Watch
-#else
 import Models
-#endif
 
 public struct CheckinState {
     public init(checkedInVenue: Venue?) {

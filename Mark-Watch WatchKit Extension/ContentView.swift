@@ -7,8 +7,8 @@
 //
 
 import SwiftUI
-import Constants_Watch
-import Models_Watch
+import Constants
+import Models
 import Services_Watch
 import flux_Watch
 import SwiftUIFlux

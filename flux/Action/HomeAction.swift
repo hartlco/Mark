@@ -7,11 +7,10 @@
 //
 
 import SwiftUIFlux
+import Models
 #if os(watchOS)
-import Models_Watch
 import Services_Watch
 #else
-import Models
 import Services
 #endif
 

@@ -8,12 +8,11 @@
 
 import SwiftUIFlux
 import KeychainAccess
+import Constants
 import Foundation
 #if os(watchOS)
-import Constants_Watch
 import Services_Watch
 #else
-import Constants
 import Services
 #endif
 
