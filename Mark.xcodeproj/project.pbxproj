@@ -107,7 +107,6 @@
 		5BA780912355866E00DA76FC /* LocationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48A054234D11C700C24949 /* LocationReducer.swift */; };
 		5BA780922355866E00DA76FC /* LoginReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB2A234E5AE9005EB226 /* LoginReducer.swift */; };
 		5BA780932355866E00DA76FC /* CheckInReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69AB34234E6359005EB226 /* CheckInReducer.swift */; };
-		5BB242FD234D9DB200B77889 /* FSOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB242FC234D9DB200B77889 /* FSOAuth.m */; };
 		5BD145812351AB8B00ED2616 /* LastCheckInsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD145802351AB8B00ED2616 /* LastCheckInsResponse.swift */; };
 		5BD145842351AFD200ED2616 /* LastCheckinMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD145832351AFD200ED2616 /* LastCheckinMiddleware.swift */; };
 		5BD145862351EC2000ED2616 /* LocationUpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD145852351EC2000ED2616 /* LocationUpdateService.swift */; };
@@ -118,6 +117,7 @@
 		5BF0118B2343D6A7008A7053 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0118A2343D6A7008A7053 /* Preview Assets.xcassets */; };
 		5BF0118E2343D6A7008A7053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0118C2343D6A7008A7053 /* LaunchScreen.storyboard */; };
 		5BF011992343D6A7008A7053 /* MarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF011982343D6A7008A7053 /* MarkTests.swift */; };
+		C52770D223F985E000284363 /* FSOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C52770D123F985E000284363 /* FSOAuth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -414,8 +414,6 @@
 		5BA7804F2355852000DA76FC /* Services_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Services_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA780682355862600DA76FC /* flux_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = flux_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB242FA234D9DB100B77889 /* Mark-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mark-Bridging-Header.h"; sourceTree = "<group>"; };
-		5BB242FB234D9DB200B77889 /* FSOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSOAuth.h; path = "../../../Downloads/foursquare-ios-oauth-master/FSOAuth.h"; sourceTree = "<group>"; };
-		5BB242FC234D9DB200B77889 /* FSOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSOAuth.m; path = "../../../Downloads/foursquare-ios-oauth-master/FSOAuth.m"; sourceTree = "<group>"; };
 		5BB242FE234DA00E00B77889 /* LoginAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAction.swift; sourceTree = "<group>"; };
 		5BD145802351AB8B00ED2616 /* LastCheckInsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCheckInsResponse.swift; sourceTree = "<group>"; };
 		5BD145832351AFD200ED2616 /* LastCheckinMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCheckinMiddleware.swift; sourceTree = "<group>"; };
@@ -436,6 +434,8 @@
 		5BF011B52343E2C5008A7053 /* HomeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeState.swift; sourceTree = "<group>"; };
 		5BF011B72343E2E5008A7053 /* HomeReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReducer.swift; sourceTree = "<group>"; };
 		5BF011BA2343E39C008A7053 /* HomeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
+		C52770D023F985E000284363 /* FSOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSOAuth.h; sourceTree = "<group>"; };
+		C52770D123F985E000284363 /* FSOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSOAuth.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -679,8 +679,8 @@
 		5BB242F9234D9D9B00B77889 /* Extern */ = {
 			isa = PBXGroup;
 			children = (
-				5BB242FB234D9DB200B77889 /* FSOAuth.h */,
-				5BB242FC234D9DB200B77889 /* FSOAuth.m */,
+				C52770D023F985E000284363 /* FSOAuth.h */,
+				C52770D123F985E000284363 /* FSOAuth.m */,
 				5BB242FA234D9DB100B77889 /* Mark-Bridging-Header.h */,
 			);
 			path = Extern;
@@ -1442,7 +1442,7 @@
 				5BF011822343D6A5008A7053 /* AppDelegate.swift in Sources */,
 				5BF011842343D6A5008A7053 /* SceneDelegate.swift in Sources */,
 				5B5A67EA2357883C00930902 /* SettingsView.swift in Sources */,
-				5BB242FD234D9DB200B77889 /* FSOAuth.m in Sources */,
+				C52770D223F985E000284363 /* FSOAuth.m in Sources */,
 				5BF011862343D6A5008A7053 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
